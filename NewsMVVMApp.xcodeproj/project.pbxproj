@@ -17,6 +17,7 @@
 		D7B5243A2AC22538007D3DD5 /* NewsAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B524392AC22538007D3DD5 /* NewsAPIResponse.swift */; };
 		D7B524402AC22678007D3DD5 /* NewsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B5243F2AC22678007D3DD5 /* NewsEndpoint.swift */; };
 		D7B524442AC228E7007D3DD5 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B524432AC228E7007D3DD5 /* APIError.swift */; };
+		D7B524462AC229B8007D3DD5 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B524452AC229B8007D3DD5 /* NewsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D7B524392AC22538007D3DD5 /* NewsAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIResponse.swift; sourceTree = "<group>"; };
 		D7B5243F2AC22678007D3DD5 /* NewsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEndpoint.swift; sourceTree = "<group>"; };
 		D7B524432AC228E7007D3DD5 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D7B524452AC229B8007D3DD5 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				D7B524422AC228CB007D3DD5 /* API */,
+				D7B524452AC229B8007D3DD5 /* NewsService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B524112AC2242B007D3DD5 /* ContentView.swift in Sources */,
+				D7B524462AC229B8007D3DD5 /* NewsService.swift in Sources */,
 				D7B5243A2AC22538007D3DD5 /* NewsAPIResponse.swift in Sources */,
 				D7B5240F2AC2242B007D3DD5 /* NewsMVVMAppApp.swift in Sources */,
 				D7B524442AC228E7007D3DD5 /* APIError.swift in Sources */,
