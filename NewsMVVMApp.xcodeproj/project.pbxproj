@@ -20,6 +20,7 @@
 		D7B524462AC229B8007D3DD5 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B524452AC229B8007D3DD5 /* NewsService.swift */; };
 		D7B524492AC22D85007D3DD5 /* ResultState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B524482AC22D85007D3DD5 /* ResultState.swift */; };
 		D7B5244B2AC22DEE007D3DD5 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B5244A2AC22DEE007D3DD5 /* NewsViewModel.swift */; };
+		D7B5244E2AC32B32007D3DD5 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = D7B5244D2AC32B32007D3DD5 /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B5244E2AC32B32007D3DD5 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +195,9 @@
 			dependencies = (
 			);
 			name = NewsMVVMApp;
+			packageProductDependencies = (
+				D7B5244D2AC32B32007D3DD5 /* URLImage */,
+			);
 			productName = NewsMVVMApp;
 			productReference = D7B5240B2AC2242A007D3DD5 /* NewsMVVMApp.app */;
 			productType = "com.apple.product-type.application";
@@ -265,6 +270,9 @@
 				Base,
 			);
 			mainGroup = D7B524022AC2242A007D3DD5;
+			packageReferences = (
+				D7B5244C2AC32B32007D3DD5 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = D7B5240C2AC2242A007D3DD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -639,6 +647,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7B5244C2AC32B32007D3DD5 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7B5244D2AC32B32007D3DD5 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7B5244C2AC32B32007D3DD5 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D7B524032AC2242A007D3DD5 /* Project object */;
 }
